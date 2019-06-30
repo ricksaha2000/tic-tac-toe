@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css" />
+    <link rel="stylesheet" href="main1.css">
+
+
+</head>
+
+<body>
+    <div class="boardcontainer">
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 id="#animated_div" class="display-3">TIC TAC TOE</h1>
+            </div>
+        </div>
+    </div>
+    <div id="board" class="boardcontainer">
+        <div class="row">
+
+            <div id="s00" class="square"></div>
+            <div id="s10" class="square"></div>
+            <div id="s20" class="square"></div>
+        </div>
+        <div class="row">
+            <div id="s01" class="square"></div>
+            <div id="s11" class="square"></div>
+            <div id="s21" class="square"></div>
+        </div>
+        <div class="row">
+            <div id="s02" class="square"></div>
+            <div id="s12" class="square"></div>
+            <div id="s22" class="square"></div>
+        </div>
+    </div>
+    <p id="status" class="para"></p>
+    <p>X wins: <span id="xwins" class="x">0</span><br/>
+        Y wins: <span id="owins" class="o">0</span></p>
+    <p><button onclick="newGame()" class="btn btn-danger btn-lg btncenter">New Game</button></p>
+    
+    <p>
+        Strategies:<br />
+        <label><input disabled type="checkbox" name="random" value="1" checked /> Random</label><br />
+
+    </p>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="javacomp.js"></script>
+</body>
+
+</html>

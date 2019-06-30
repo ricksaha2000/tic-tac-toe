@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="boardcontainer">
+
+        <div  class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 id="#animated_div" class="display-3">TIC TAC TOE</h1>
+                
+            </div>
+        </div>
+        <div class="content">
+        <div class="hi"> You're Playing</div>
+        <div class="hifi">
+            <span> TIC TAC TOE</span>
+        </div>
+        </div>
+        <div class="controls">
+            <form action="#">
+
+                <input class="checkbox" type="radio" name="player" value="X"><h4><span class="badge badge-default">X PLAYAH</span></h4>
+                <input class="checkbox" type="radio" name="player" value="O"><h4><span class="badge badge-default">O PLAYAH</span></h4>
+
+
+
+            </form>
+
+        </div>
+        
+        <div class="boardcontainer">
+            <div class="row">
+                <div id="0" class="square bottom right"></div>
+                <div id="1" class="square bottom right"></div>
+                <div id="2" class="square bottom"></div>
+            </div>
+            <div class="row">
+                <div id="3" class="square bottom right"></div>
+                <div id="4" class="square bottom right"></div>
+                <div id="5" class="square bottom"></div>
+            </div>
+            <div class="row">
+                <div id="6" class="square right"></div>
+                <div id="7" class="square right"></div>
+                <div id="8" class="square"></div>
+            </div>
+            <div class="reset">
+                <a id="resetboard" class="reset" href="#" onclick="">Reset</a>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="javacomp.js"></script>
+
+</body>
+
+</html>
